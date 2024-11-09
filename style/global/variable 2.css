@@ -1,0 +1,16 @@
+:root {
+    --sectionColor: #F4F7FA;
+    --footerColor_TextColor: #161C2D;
+    --buttonColor_linkColor: #473BF0;
+    --whiteColor: #FFFFFF;
+    /* Fonts */
+    --font_Rubik: 'Rubik', sans-serif;
+    --font_Roboto: 'Roboto', sans-serif;
+    --formColor: #E7E9ED;
+    --footerColor: #161C2D;
+    --paragraphyColor: #979797;
+    --footerHead: #7D818D;
+    /* spacing */
+    --letterSpacing1: -0.1px;
+    --letterSpacing2: -0.2px;
+}
