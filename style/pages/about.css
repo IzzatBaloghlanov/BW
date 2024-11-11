@@ -57,7 +57,11 @@ body {
     line-height: 26px;
     letter-spacing: var(--letterSpacing1);
 }
-
+.container{
+    max-width:984px;
+    margin: 0 auto;
+    
+}
 .content-text {
     margin-top: 109px;
     text-align: center;
@@ -102,17 +106,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 19%;
+    gap: 5%;
+    width: 100%;
+    
 }
 
 .left-text {
-    width: 17%;
-    margin-top: 141px;
+    width: 40%;
+    margin-top: 44px;
 }
 
 .right-text {
-    width: 25%;
-    margin-top: 190px;
+    width: 376px;
+    height: 294px;
+    
+    margin-top: 80px;
 }
 
 .left-text h1 {
@@ -132,6 +140,7 @@ body {
     margin-right: 180px;
     opacity: 70%;
     color: var(--footerColor_TextColor);
+    width: 100%;
 }
 
 .right-text .text2 {
@@ -143,7 +152,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--sectionColor);
-    gap: 19%;
+     gap: 5%;
     margin-top: 86px;
     padding-top: 139px;
     padding-bottom: 139px;
@@ -154,7 +163,7 @@ body {
 }
 
 .sectionbar3-left img {
-    width: 170%;
+    width: 100%;
 }
 
 .sectionbar3-right {
@@ -262,7 +271,7 @@ p {
 
 .footerbar {
     background-color: var(--footerColor_TextColor);
-    );
+
     margin-top: 69px;
 }
 
